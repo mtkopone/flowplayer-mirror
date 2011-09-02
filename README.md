@@ -12,7 +12,7 @@ To use it, put this in your flowplayer setup:
 	  }
 	}
 
-The binary is in lib/
+The binary is in [bin/](https://github.com/mtkopone/flowplayer-mirror/tree/master/bin)
 It requires flash 10.0+
 
 
