@@ -23,7 +23,7 @@ public class FlowplayerMirror extends Sprite implements Plugin {
   }
 
   public function onLoad(player:Flowplayer):void {
-    player.screen.getDisplayObject().addEventListener(Event.ADDED, onAdd);
+    player.screen.getDisplayObject().stage.addEventListener(Event.ADDED, onAdd);
     player.playlist.onResized(onResize);
     _model.dispatchOnLoad();
   }
